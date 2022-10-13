@@ -75,3 +75,10 @@ El navegador seleccionara el formato que entienda, lo que si respetara el primer
 ### Formularios
 Estas etiquetas nos ayuda a solicitar informacion al usuario, se tienen que realizar de la mejor forma para que no sea tedioso para el usuario.
 Es necesario que se utilice de manera semantica por lo que es necesario utilizar la etiqueta **form**. Ver la carpeta form para ver las buenas practicas.
+
+Para ver los distintos tipos de inputs en HTML5 se puede consultar el siguiente enlace [Guia de inputs](https://developer.mozilla.org/es/docs/Web/HTML/Element/input "Guide of inputs").
+
+## Autocomplete y require
+Es necesario que los formularios sean amigables con los usuarios, tanto para autocompletar informacion recurrente que utiliza el usuario asi como indicarle que campos son obligatorios necesarios, esto ultimo se puede hacer con JS pero es bueno empezar a utilizar una primara capa de validacion de la informacion. La manera de realizar un autocompletado es con el siguiente atributo ```autocomplete="<value>"``` Done value son distintos tipos de valores que podemos ver en el siguiente [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete "Autocomplete of inputs").
+
+Y para que un campo sea mandatorio simplemente es utilizando el atributo ```required```
