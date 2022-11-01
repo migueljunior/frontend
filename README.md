@@ -82,3 +82,8 @@ Para ver los distintos tipos de inputs en HTML5 se puede consultar el siguiente 
 Es necesario que los formularios sean amigables con los usuarios, tanto para autocompletar informacion recurrente que utiliza el usuario asi como indicarle que campos son obligatorios necesarios, esto ultimo se puede hacer con JS pero es bueno empezar a utilizar una primara capa de validacion de la informacion. La manera de realizar un autocompletado es con el siguiente atributo ```autocomplete="<value>"``` Done value son distintos tipos de valores que podemos ver en el siguiente [link](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete "Autocomplete of inputs").
 
 Y para que un campo sea mandatorio simplemente es utilizando el atributo ```required```
+
+Para poder dar al usuario distintas selecciones se puede utilizar la etiqueta ``select``
+
+## Diferencia entre input y button
+La personalizacion de los botones, input se puede utilizar de forma directa en los formularios, la etiqueta button se puede utilizar para cualquier otro tipo de button que se necesite en el proyecto.
