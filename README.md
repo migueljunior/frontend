@@ -87,3 +87,17 @@ Para poder dar al usuario distintas selecciones se puede utilizar la etiqueta ``
 
 ## Diferencia entre input y button
 La personalizacion de los botones, input se puede utilizar de forma directa en los formularios, la etiqueta button se puede utilizar para cualquier otro tipo de button que se necesite en el proyecto.
+
+## CSS
+Es un documento que aplica todos los estilos en forma de cascada, es el estandar para poder estilizar el proyecto.
+Hay 3 formas para utilizar CSS:
+- Importando un hajo de estilo con la etiqueta ``<link rel="stylesheet" href="./style.css">`` en el head
+- Utilizando la etiqueta ``<style></style>`` en le head
+- Implementando directamente en las etiquetas de archivo HTML ``<p style="color: red;">Soy un texto</p>``
+
+Para especificar como aplicar los estilos se pueden realizar de la siguiente manera:
+- Por la etiqueta
+- Por la clase, agregando ``class='nombre de la clase'`` a la etiqueta y en la hoja de estilo ``.<nombre de la clase>``
+- Por el ID, agregando ``id='nombre del ID'``a la etiqueta y en la hoja de estilo ``#<nombre del ID>``
+
+### Pseudo clases y Pseudo elementos
