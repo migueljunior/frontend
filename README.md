@@ -101,3 +101,19 @@ Para especificar como aplicar los estilos se pueden realizar de la siguiente man
 - Por el ID, agregando ``id='nombre del ID'``a la etiqueta y en la hoja de estilo ``#<nombre del ID>``
 
 ### Pseudo clases y Pseudo elementos
+Entre parentesis, para nombrar clases de las etiquetas se puede utilizar BEM, mayor referencia ver el siguiente [link](https://en.bem.info/methodology/faq/#why-bem "Metodologia BEM")
+
+Resumen de BEM:
+Es nombrar clases siguiendo el siguiente patrón: BLOQUE__ELEMENTO–MODIFICADOR
+
+La diferencia mas importante entre ambos es el siguiente:
+- **[Pseudo classes](https://developer.mozilla.org/es/docs/Web/CSS/Pseudo-classes)=>** :class Define el estilo de un estado especial de un elemento.
+- **[Pseudo elementos](https://developer.mozilla.org/es/docs/Web/CSS/Pseudoelementos)=>** ::element Define el estilo de una parte especifica de un elemento.
+
+### Anatomia de una regla de CSS
+Para entender mejor las reglas de CSS se puede ver el siguiente [articulo](http://desarrollo-web-primeros-pasos.blogspot.com/2018/05/59-css-selectores-basicos-1.html)
+
+### Modelo de Caja
+El modelo de caja lleva la siguiente estructura (de afuera hacia adentro) Margin -> Border -> Padding -> Content (Dentro del content se encuentra el alto y ancho) Asi mismo muy afuera de todos se encuentran los espacios Top, Left, Right y bottom. Margin es transparente el cual no se ve.
+
+### Herencia
