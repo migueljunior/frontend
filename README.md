@@ -117,3 +117,6 @@ Para entender mejor las reglas de CSS se puede ver el siguiente [articulo](http:
 El modelo de caja lleva la siguiente estructura (de afuera hacia adentro) Margin -> Border -> Padding -> Content (Dentro del content se encuentra el alto y ancho) Asi mismo muy afuera de todos se encuentran los espacios Top, Left, Right y bottom. Margin es transparente el cual no se ve.
 
 ### Herencia
+Esta parte es muy importante dominar en CSS que es parte de la cascada, es el codigo que hereda de un padre a 1 hijo.
+
+### Especificidad en selectores
